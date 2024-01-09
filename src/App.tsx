@@ -94,7 +94,7 @@ function App() {
             onStart: () => {
             },
             duration: checkboxDuration,
-            backgroundColor: '#aaa',
+            backgroundColor: '#2eec71',
           },
           delay
         )
@@ -126,7 +126,7 @@ function App() {
       })
         .to(
           bgRef.current,
-          { duration: checkboxDuration, backgroundColor: '#2eec71' },
+          { duration: checkboxDuration, backgroundColor: '#aaa' },
           0
         )
         .to(indicatorRef.current, { duration: checkboxDuration, x: '100%' }, 0)

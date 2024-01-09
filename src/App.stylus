@@ -1,6 +1,6 @@
 *
   box-sizing border-box
-  background #1e293b
+  background #111827
 
 body
   align-items center
@@ -29,7 +29,7 @@ body
   left 0
   right 0
   bottom 0
-  background #1e293b
+  background #111827
 
 .bear
   width 100%
@@ -121,7 +121,7 @@ body
     margin 0
 
   &__bg
-    background #aaa
+    background #2eec71
     border-radius 50px
     height 100%
     width 100%
